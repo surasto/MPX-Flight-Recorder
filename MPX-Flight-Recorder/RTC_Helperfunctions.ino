@@ -13,7 +13,7 @@ String getDateTimeString() {
    S += "-";
    if (tm.Day < 10) S += "0";
    S += tm.Day;
-   S += "__";
+   S += " ";
    if (tm.Hour < 10) S += "0";
    S += tm.Hour;
    S += ":";
